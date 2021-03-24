@@ -1,0 +1,49 @@
+.Header{
+        height: 100px;
+        background-color: thistle;
+        display: grid;
+        grid-template-columns: 15% 80%;
+        align-items: center;
+        justify-items: end;
+    }
+.logo{
+    height: 60px;
+    width: 70px;
+}
+.navbar li{
+    display: inline;
+    padding: 0px 15px;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 20pc;
+}
+
+
+/* stying the the banner area  */
+.banner {
+    background-image: url(../banana.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: cadetblue;
+}
+.maincontent{
+    background-color: cyan;
+    display: grid;
+    grid-template-columns: 15px; 0px;
+
+}
+.content1 {
+    background-color: darkgray;
+    padding: 02mm;
+    height: 50mm;
+    width: 30mm;
+    
+}
